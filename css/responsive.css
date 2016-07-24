@@ -1,0 +1,58 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 2200px) {
+	.project-item {
+		width: 30%;
+	}
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.single-member img {
+		width: 100%;
+	}
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.single-member img {
+		width: 100%;
+	}
+
+	#slideshow div h3 {
+		font-size: 15px;
+	}
+
+	.contact-info {
+		padding-top: 25px;
+		margin-left: 10px;
+	}
+
+	.project-item {
+		width: 86%;
+	}
+
+	.project-item img {
+		width: 100%
+	}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.single-member {
+		margin-left: 15%;
+		width: 65%;
+	}
+
+	.project-item {
+		width: 45%;
+	}
+
+	.project-item img {
+		width: 100%
+	}
+
+}
