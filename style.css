@@ -278,6 +278,178 @@ header.header {
 }
 
 
+/*about area css*/
+
+#about {
+    color: #272b2f;
+}
+
+.description-text p {
+    line-height: 24px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.ensemble {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.signature {
+    margin-top: 40px;
+    font-family: "Notera Personal Use Only", sans-serif;
+    text-align: right;
+    font-size: 32px;
+}
+
+.about-bottom > h4 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+.single-member {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.team-text h4 {
+    color: #fff;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.team-text {
+    padding-top: 65px;
+    color: #fff;
+}
+
+.team-text p {
+    margin-bottom: 10px;
+}
+
+
+/*services css */
+
+#service {
+    background-color: #F5FCFC;
+    color: #272b2f;
+}
+
+.single-service i {
+    font-size: 35px;
+    padding: 50px 0 15px 0;
+    color: #A2A2A2;
+}
+
+.single-service h3 {
+    font-size: 16px;
+}
+
+.single-service p {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.cdg {
+    font-style: oblique;
+    font-size: 13px;
+}
+
+
+/*carousel area css*/
+
+#review {
+    background: url("img/cv-bg.jpg") no-repeat fixed center center;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(256, 256, 256, 0.50);
+}
+
+.carousel-1 {
+    color: #272b2f;
+}
+
+.carousel-1 p {
+    line-height: 26px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #A2A2A2;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators li.active {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    ;
+    background-color: #333333;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+}
+
+.carousel-1 span {
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.carousel-1 h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+
 /*project css*/
 
 .project-name {
@@ -383,178 +555,6 @@ button.close {
 
 .project-item:hover .img-overlay {
     opacity: 1;
-}
-
-
-/*services css */
-
-#service {
-    background-color: #F5FCFC;
-    color: #272b2f;
-}
-
-.single-service i {
-    font-size: 35px;
-    padding: 50px 0 15px 0;
-    color: #A2A2A2;
-}
-
-.single-service h3 {
-    font-size: 16px;
-}
-
-.single-service p {
-    font-size: 13px;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-}
-
-.cdg {
-    font-style: oblique;
-    font-size: 13px;
-}
-
-
-/*carousel area css*/
-
-#review {
-    background: url("img/testimonial-bg.jpg") no-repeat fixed center center;
-    background-size: cover;
-    position: relative;
-}
-
-.carousel-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(256, 256, 256, 0.50);
-}
-
-.carousel-1 {
-    color: #272b2f;
-}
-
-.carousel-1 p {
-    line-height: 26px;
-    padding-bottom: 25px;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #A2A2A2;
-    border: 1px solid #fff;
-    border-radius: 10px;
-}
-
-.carousel-indicators li.active {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    ;
-    background-color: #333333;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: -40px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-}
-
-.carousel-1 span {
-    font-size: 10px;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-.carousel-1 h4 {
-    font-size: 14px;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-
-
-/*about area css*/
-
-#about {
-    color: #272b2f;
-}
-
-.description-text p {
-    line-height: 24px;
-    padding-top: 100px;
-    text-align: left;
-}
-
-.ensemble {
-    margin-top: 30px;
-    text-align: left;
-    font-size: 13px;
-}
-
-.signature {
-    margin-top: 40px;
-    font-family: "Notera Personal Use Only", sans-serif;
-    text-align: right;
-    font-size: 32px;
-}
-
-.about-bottom > h4 {
-    font-size: 16px;
-    font-weight: normal;
-    padding-bottom: 25px;
-}
-
-.single-member {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.team-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: 500ms;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.team-text h4 {
-    color: #fff;
-    margin: 0 0 5px;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.team-text {
-    padding-top: 65px;
-    color: #fff;
-}
-
-.team-text p {
-    margin-bottom: 10px;
 }
 
 
@@ -785,82 +785,6 @@ footer p {
     text-align: center;
 }
 
-
-/*blog details post*/
-
-.blog-post {
-    padding-bottom: 0
-}
-
-.blog-tag {
-    padding: 15px 0;
-}
-
-.blog-tag a {
-    font-size: 10px;
-    line-height: 12px;
-}
-
-.related-post-heading {
-    padding: 0 0 30px;
-}
-
-.related-post a {
-    text-decoration: none;
-}
-
-.related-post {
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.related-post img {
-    display: block;
-    width: 100%;
-}
-
-.related-post h5 {
-    margin: 0;
-    padding: 15px;
-    width: 100%;
-    display: block;
-    background-color: #ddd;
-}
-
-#comment {
-    margin-bottom: 40px;
-}
-
-.comment-date {
-    font-size: 12px;
-    text-transform: capitalize;
-}
-
-.comment-no {
-    margin-bottom: 30px;
-}
-
-.btn-margin {
-    margin-bottom: 30px;
-}
-
-.media-list img {
-    height: 70px;
-    width: 70px;
-}
-
-.media-body p.comment-p {
-    padding-bottom: 20px;
-}
-
-.archive {
-    padding: 40px 0 0;
-}
-
-.side-blog-tag {
-    padding-top: 40px;
-}
-
-.center {
-    background: pink;
+.mentions-legales {
+    margin: 0 20px;
 }
