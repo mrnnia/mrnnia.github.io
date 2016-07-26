@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Marine Petit - Gestion de projet web & webmarketing">
+    <meta name="author" content="Marine Petit">
 
     <title>Marine Petit - Gestion de Projet web et webmarketing</title>
 
@@ -69,23 +69,24 @@
         <div class="home-overlay"></div>
         <div class="table">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="logohome">
-                            <img src="img/Logo-Marine-Petit-L.png" alt="logo marine petit">
-                            <!--slideshow-->
-                            <div id="slideshow" class="home-text  text-center">
-                                <div>
-                                    <h3>Gestion de Projet Web </h3></div>
-                                <div>
-                                    <h3>Webmarketing</h3></div>
-                            </div>
-                        </div>
-                    </div>
+               <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="logohome">
+            <img src="img/Logo-Marine-Petit-L.png" alt="logo marine petit">
+            <!--slideshow-->
+            <div id="slideshow" class="home-text  text-center">
+                <div>
+                    <h3>Gestion de Projet Web </h3></div>
+                <div>
+                    <h3>Webmarketing</h3></div>
+            </div>
+        </div>
+    </div>
                 </div>
             </div>
         </div>
-        <a href="#about"><img class="button-home" src="img/bouton.png" alt="bouton scroll"></a>
+        <a href="#about" class="smooth-scroll"><img class="button-home" src="img/bouton.png" alt="bouton scroll"></a>
+        </div>
     </section>
     <!-- end Home -->
 
@@ -110,12 +111,10 @@
                                     <p>Des compétences ancrées grâce à des formations et expériences dans le marketing, le digital et la conduite de projet.
                                         <br>De la curiosité pour les vagues de tendances web.
                                         <br>L’envie forte de prendre le large vers la gestion de projet & le webmarketing.
-                                        <br>Animée par un océan d’enthousiasme et d’implication tout en gardant le cap !
-                                        <div class="ensemble">Embarquons ensemble et naviguons vers de nouveaux horizons web.</div>
-                                        <div class="signature">Marine
-                                        </div>
-
-                                    </p>
+                                        <br>Animée par un océan d’enthousiasme et d’implication tout en gardant le cap !</p>
+                                    <div class="ensemble">Embarquons ensemble et naviguons vers de nouveaux horizons web.</div>
+                                    <div class="signature">Marine
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
@@ -452,59 +451,63 @@
                 <p>une collaboration ? une mission ? une p'tite question ? contactez-moi !</p>
             </div>
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="row">
-                        <div class="col-md-7 col-sm-7">
+                <div class="contact">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-7">
 
-                            <form class="contact-form" id="ContactForm" method="post" action="sendemail.php">
-                                <!--contact form-->
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" placeholder="Nom *" required="required">
+
+                                <!--<form class="contact-form" id="ContactForm" method="post" action="sendemail.php">-->
+
+                                <form class="contact-form" action="https://formspree.io/petitmrn@gmail.com" method="POST">
+                                    <!--contact form-->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" placeholder="Nom *" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control" placeholder="E-mail *" required="required">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" name="subject" class="form-control" placeholder="Sujet">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea class="form-control" name="message" rows="10" placeholder="Message" required="required"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-send">Envoyer</button>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="form-control" placeholder="E-mail *" required="required">
-                                        </div>
+                                </form>
+                                <!--end contact form-->
+                            </div>
+                            <div class="col-md-4 col-md-offset-1 col-sm-5">
+                                <div class="contact-info">
+                                    <!--contact info sidebar-->
+                                    <p class="border-p text-center text-uppercase">
+                                        <span>Réseaux sociaux</span>
+                                    </p>
+
+                                    <div class="tm-social-icon">
+                                        <a href="https://fr.linkedin.com/in/marine-petit-166580b5" target="_blank"> <i class="fa fa-linkedin"></i></a>
+                                        <a href="https://twitter.com/mrnpetit" target="blank"> <i class="fa fa-twitter"></i></a>
+                                        <a href="https://fr.pinterest.com/marine5510/" target="blank"> <i class="fa fa-pinterest"></i></a>
                                     </div>
-
-
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" name="subject" class="form-control" placeholder="Sujet">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <textarea class="form-control" name="message" rows="10" placeholder="Message" required="required"></textarea>
-                                        </div>
-                                        <button type="submit" class="btn btn-send">Envoyer</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <!--end contact form-->
-                        </div>
-                        <div class="col-md-4 col-md-offset-1 col-sm-5">
-                            <div class="contact-info">
-                                <!--contact info sidebar-->
-                                <p class="border-p text-center text-uppercase">
-                                    <span>Réseaux sociaux</span>
-                                </p>
-
-                                <div class="tm-social-icon">
-                                    <a href="https://fr.linkedin.com/in/marine-petit-166580b5" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                                    <a href="https://twitter.com/mrnpetit" target="blank"> <i class="fa fa-twitter"></i></a>
-                                    <a href="https://fr.pinterest.com/marine5510/" target="blank"> <i class="fa fa-pinterest"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!--end contact section-->
 

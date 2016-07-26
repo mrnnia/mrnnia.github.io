@@ -1,14 +1,11 @@
 /** Google Font **/
 
-
-/*
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700);
 @font-face {
     font-family: "Notera Personal Use Only";
     src: url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.eot");
     src: url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.woff") format("woff"), url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/47a13d55769cf715dae09c0456839f5f.svg#Notera Personal Use Only") format("svg");
 }
-*/
 
 
 /* Base CSS */
@@ -60,7 +57,7 @@ a:hover {
 }
 
 section {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 
@@ -74,9 +71,9 @@ section {
 }
 
 .heading-text p {
-    padding-bottom: 40px;
     letter-spacing: 2px;
     font-size: 11px;
+    padding-bottom: 20px;
 }
 
 
@@ -286,7 +283,7 @@ header.header {
 
 .description-text p {
     line-height: 24px;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: left;
 }
 
@@ -312,6 +309,11 @@ header.header {
 .single-member {
     position: relative;
     margin-bottom: 10px;
+}
+
+.single-member img {
+    width: 70%;
+    padding-top: 30px;
 }
 
 .team-overlay {
@@ -545,13 +547,14 @@ button.close {
     cursor: pointer;
 }
 
-.img-overlay h5 {
+
+/*.img-overlay h5 {
     color: #fff;
     font-size: 14px;
     background: url(img/project-heading-bg.png) no-repeat center bottom;
     padding-bottom: 20px;
     text-transform: uppercase;
-}
+}*/
 
 .project-item:hover .img-overlay {
     opacity: 1;
@@ -623,6 +626,10 @@ button.btn-send:hover {
 
 
 /*address css */
+
+.contact {
+    margin-top: 50px;
+}
 
 .contact-info {
     margin-left: -10px;
@@ -787,4 +794,25 @@ footer p {
 
 .mentions-legales {
     margin: 0 20px;
+}
+
+.form-confirmation {
+    margin-top: 30px;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 20px;
+    background-color: #E6F1F7;
+}
+
+.signature-merci {
+    font-family: Notera Personal Use Only;
+    font-size: 36px;
+}
+
+.return {
+    background: pink;
+    width: 300px;
+    padding: 5px 5px;
+    display: block;
+    margin: auto;
 }

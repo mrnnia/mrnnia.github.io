@@ -1,7 +1,8 @@
 /* ---------------------------------------------
  common scripts
  --------------------------------------------- */
-;(function ($) {
+;
+(function ($) {
     'use strict'; // use strict to start
 
     /* === home text slide show === */
@@ -111,7 +112,3 @@ jQuery(document).ready(function ($) {
     });
 
 });
-
-
-
-

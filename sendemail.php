@@ -1,6 +1,6 @@
 <?php
 
-	$name = @trim(stripslashes($_POST['name']));
+$name = @trim(stripslashes($_POST['name']));
 	$email = @trim(stripslashes($_POST['email']));
 	$subject = @trim(stripslashes($_POST['subject']));
 	$message = @trim(stripslashes($_POST['message']));
@@ -14,9 +14,12 @@
 
 ?>
 
-<!DOCTYPE HTML>
-<html lang="fr">
-<head>
-	<script>alert("Merci de m'avoir contactée. Je reviens vers vous dès la prise de connaissance de votre message.");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=index.html">
-</head>
+    <!DOCTYPE HTML>
+    <html lang="fr">
+
+    <head>
+        <script>
+            alert("Merci de m'avoir contactée. Je reviens vers vous dès la prise de connaissance de votre message.");
+        </script>
+        <meta HTTP-EQUIV="REFRESH" content="0; url=index.html">
+    </head>
