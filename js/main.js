@@ -53,6 +53,23 @@
         });
     }());
 
+    (function () {
+        $(".smooth-scroll").bind("click", function (event) {
+            var $anchor = $(this);
+            var headerH = "50";
+            $("html, body")
+                .stop()
+                .animate({
+                    scrollTop: $($anchor.attr("href"))
+                        .offset()
+                        .top - headerH + "px"
+                }, 1200, "easeOutCirc");
+
+            event.preventDefault();
+
+        });
+    }());
+
     /* === sticky menu === */
     (function () {
         $(".navi").sticky({
