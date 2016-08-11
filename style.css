@@ -100,8 +100,8 @@ header.header {
 
 .navbar-brand > img {
     display: block;
-    width: 100px;
-    padding-top: 7px;
+    width: 120px;
+    
 }
 
 .nav > li {
@@ -585,7 +585,7 @@ button.close {
     background: url("img/dune.jpg") no-repeat fixed center center;
     position: relative;
     background-size: cover;
-    height: 100%;
+    height: 80%;
     width: 100%;
     color: #333;
     letter-spacing: 2px;
@@ -737,7 +737,7 @@ footer p {
     letter-spacing: 2px;
     color: #282828;
     text-transform: uppercase;
-    padding: 25px 0 15px;
+    padding: 15px 0 15px;
 }
 
 

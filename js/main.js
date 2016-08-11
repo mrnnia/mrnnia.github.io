@@ -54,7 +54,7 @@
     }());
 
     (function () {
-        $(".smooth-scroll").bind("click", function (event) {
+        $(".smooth-scroll-btn").bind("click", function (event) {
             var $anchor = $(this);
             var headerH = "50";
             $("html, body")
@@ -68,7 +68,9 @@
             event.preventDefault();
 
         });
-    }());
+    }())
+
+
 
     /* === sticky menu === */
     (function () {
