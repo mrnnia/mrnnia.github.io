@@ -101,7 +101,6 @@ header.header {
 .navbar-brand > img {
     display: block;
     width: 120px;
-    
 }
 
 .nav > li {
@@ -375,7 +374,7 @@ header.header {
 /*carousel area css*/
 
 #review {
-    background: url("img/cv-bg.jpg") no-repeat fixed center center;
+    background: url("img/photo-review.jpg") no-repeat fixed center center;
     background-size: cover;
     position: relative;
 }
@@ -582,7 +581,7 @@ button.close {
 /*contact area*/
 
 #connect {
-    background: url("img/dune.jpg") no-repeat fixed center center;
+    background: url("img/fond-connect.jpg") no-repeat fixed center center;
     position: relative;
     background-size: cover;
     height: 80%;
