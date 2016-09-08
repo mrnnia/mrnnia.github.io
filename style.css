@@ -471,6 +471,9 @@ header.header {
 
 
 /*project css*/
+.projet{
+    text-align: center;
+}
 
 .project-name {
     padding-bottom: 55px;
