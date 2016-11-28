@@ -68,7 +68,7 @@
             event.preventDefault();
 
         });
-    }())
+    }());
 
 
 
