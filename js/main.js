@@ -19,6 +19,7 @@
         }, 3000);
     }());
 
+
     /* === Logo Carousel === */
     (function () {
         $(".client-logo").owlCarousel({
@@ -71,7 +72,6 @@
     }());
 
 
-
     /* === sticky menu === */
     (function () {
         $(".navi").sticky({
@@ -95,6 +95,8 @@
 
 
 jQuery(document).ready(function ($) {
+
+
 
     /* === img loaded js === */
     var $container = $('.project');
