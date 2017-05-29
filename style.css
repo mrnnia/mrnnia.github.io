@@ -499,6 +499,7 @@ header.header {
 .project {
     overflow: hidden;
     text-align: center;
+    margin-left: 23px;
 }
 
 .project-item {
